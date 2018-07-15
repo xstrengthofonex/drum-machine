@@ -2,3 +2,30 @@ body {
     font-family: "Lato", sans-serif;
     color: #444;
 }
+
+h1 {
+    text-align: center;
+}
+
+#drum-pads {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.drum-pad {
+    flex: 1 1 100px;
+    margin: 10px;
+    height: 100px;
+    background-color: #ecf0f1;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#triggered-pad {
+    text-align: center;
+    font-size: 20px;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Drum Machinet</title>
+    <title>Drum Machine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -13,6 +13,40 @@
     <script src="src/js/app.js"></script>
 </head>
 <body>  
-    <h1>Drum Machine</h1> 
+    <h1>808 Drum Machine</h1> 
+    <div id="drum-machine">
+        <div id="display">
+            <div id="drum-pads">
+                <button class="drum-pad" id="bass-long">Q
+                    <audio src="src/audio/bass-long.wav" class="clip" id="Q"></audio>
+                </button>
+                <button class="drum-pad" id="bass-short">W
+                    <audio src="src/audio/bass-short.wav" class="clip" id="W"></audio>
+                </button>
+                <button class="drum-pad" id="clap">E
+                    <audio src="src/audio/clap.wav" class="clip" id="E"></audio>
+                </button>
+                <button class="drum-pad" id="claves">A
+                    <audio src="src/audio/claves.wav" class="clip" id="A"></audio>
+                </button>
+                <button class="drum-pad" id="closed-hat">S
+                    <audio src="src/audio/closed-hat.wav" class="clip" id="S"></audio>
+                </button>
+                <button class="drum-pad" id="cymbal">D
+                    <audio src="src/audio//cymbal.wav" class="clip" id="D"></audio>
+                </button>
+                <button class="drum-pad" id="open-hat">Z
+                    <audio src="src/audio/open-hat.wav" class="clip" id="Z"></audio>
+                </button>
+                <button class="drum-pad" id="snare">X
+                    <audio src="src/audio//snare.wav" class="clip" id="X"></audio>
+                </button>
+                <button class="drum-pad" id="tom-tom">C
+                    <audio src="src/audio//tom-tom.wav" class="clip" id="C"></audio>
+                </button>
+            </div>
+            <div id="triggered-pad"></div>
+        </div>
+    </div>
 </body>
 </html>
